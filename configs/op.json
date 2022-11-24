@@ -1,0 +1,144 @@
+[
+    {
+        "op_name": "copy_file",
+        "args": {
+            "src": "D:\\Work\\高级程序语言助教\\作业\\实验\\数学12\\实验9_数学2\\实验九 文件操作-220810207-220810207-谷敏-实验9.zip",
+            "dest": "D:\\Code\\Work\\cexp\\exp_valid\\dest"
+        },
+        "description": "将文件从src复制到dest"
+    },
+    {
+        "op_name": "uncompressed",
+        "args": {
+            "save_path": "D:\\Code\\Work\\cexp\\exp_valid\\code"
+        },
+        "description": "将 zip_file 解压缩"
+    },
+    {
+        "op_name": "mouse",
+        "args": {
+            "op_name": "move",
+            "dest": "cb.File"
+        },
+        "description": "鼠标移动到指定位置"
+    },
+    {
+        "op_name": "mouse",
+        "args": {
+            "op_name": "left_click",
+            "description": "鼠标左键点击"
+        }
+    },
+    {
+        "op_name": "mouse",
+        "args": {
+            "op_name": "move",
+            "dest": "cb.open_file",
+            "description": "鼠标移动到指定位置"
+        }
+    },
+    {
+        "op_name": "mouse",
+        "args": {
+            "op_name": "left_click",
+            "description": "鼠标左键点击"
+        }
+    },
+    {
+        "op_name": "mouse",
+        "args": {
+            "op_name": "move",
+            "dest": "cb.input_filename",
+            "description": "鼠标移动到指定位置"
+        }
+    },
+    {
+        "op_name": "file_search_by_suffix",
+        "args": {
+            "root_dir": "D:\\Code\\Work\\cexp\\exp_valid\\code",
+            "suffix": "cbp"
+        },
+        "description": "根据文件后缀找文件"
+    },
+    {
+        "op_name": "keyboard",
+        "args": {
+            "op_name": "input"
+        },
+        "description": "从键盘输入 content "
+    },
+    {
+        "op_name": "keyboard",
+        "args": {
+            "op_name": "press",
+            "key_name": "enter"
+        },
+        "description": "键盘按键回车"
+    },
+    {
+        "op_name": "keyboard",
+        "args": {
+            "op_name": "press",
+            "key_name": "enter"
+        },
+        "description": "键盘按键回车"
+    },
+    {
+        "op_name": "sleep",
+        "args": {
+            "sleep_time": 1
+        },
+        "description": "线程挂起 sleep_time s"
+    },
+    {
+        "op_name": "mouse",
+        "args": {
+            "op_name": "move",
+            "dest": "cb.build_and_run",
+            "description": "鼠标移动到指定位置"
+        }
+    },
+    {
+        "op_name": "mouse",
+        "args": {
+            "op_name": "left_click",
+            "description": "鼠标左键点击"
+        }
+    },
+    {
+        "op_name": "sleep",
+        "args": {
+            "sleep_time": 2
+        },
+        "description": "线程挂起 sleep_time s"
+    },
+    {
+        "op_name": "mouse",
+        "args": {
+            "op_name": "move",
+            "dest": "cb.console_window",
+            "description": "鼠标移动到指定位置"
+        }
+    },
+    {
+        "op_name": "mouse",
+        "args": {
+            "op_name": "left_click",
+            "description": "鼠标左键点击"
+        }
+    },
+    {
+        "op_name": "keyboard",
+        "args": {
+            "op_name": "press",
+            "key_name": "shift"
+        },
+        "description": "键盘按键Shift"
+    },
+    {
+        "op_name": "test_case",
+        "args": {
+            "test_file": "./configs/test_case.json"
+        }
+    }
+]
